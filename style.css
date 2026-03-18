@@ -1,0 +1,32 @@
+
+
+
+
+
+
+/* CSS For Album Page - Homepage CSS can go above. */
+
+section {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+img {
+    width: 400px;
+    grid-column: 1/2;
+    margin: 1em 1em 1em 1em;
+}
+
+#artwork1 {
+    grid-row: 1/2;
+}
+#artwork2 {
+    grid-row: 2/3;
+}
+
+div {
+    grid-column: 2/3;
+    grid-row: 1/3;
+
+}
