@@ -4,10 +4,45 @@
     width: 150px;
 }
 
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    background-color:#153956;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+img {
+    border: #EBCA68 solid 2px;
+}
+
+figure {
+    padding: 0px;
+    padding-top: 100px;
+}
+
+.frow {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+p {
+    font-size: larger;
+    color: #EBE7D7;
+}
+
 #gus {
-    height: 250px;
+    height: 150px;
+    float: left;
+    margin: 20px;
 }
 
 #members {
-    height: 250px;
+    height: 150px;
+    float: right;
+    margin: 20px;
 }
