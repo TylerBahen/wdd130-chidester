@@ -59,3 +59,47 @@ body {
 header {
   width:100%;
 }
+
+
+
+
+/* ---------- CSS For Album Pages ----------- */
+
+.albumpage {
+    background-color:#153956;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#artwork1, #artwork2 {
+    width: 400px;
+    grid-column: 1/2;
+    margin: 1em 1em 1em 1em;
+    border: #EBCA68 solid 2px;
+}
+
+#artwork1 {
+    grid-row: 1/2;
+}
+#artwork2 {
+    grid-row: 2/3;
+}
+
+#trackinfo {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+#trackinfo h2 {
+    font-size: 4em;
+    margin: 0 auto;
+    color: #EBCA68;
+    /* text-shadow: 2px 2px 1px #EBCA68; */
+}
+
+#trackinfo ol, #trackinfo ul, #trackinfo p {
+    color: #EBE7D7;
+    font-size: 25px;
+    margin: 0 auto;
+}
